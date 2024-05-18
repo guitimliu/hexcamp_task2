@@ -11,6 +11,7 @@ import {
 
 import Works from './pages/works/index'
 import Header from './components/Header'
+import Footer from './components/Footer'
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
         <Routes>
             <Route path="/works" element={<Works />} />
         </Routes>
+        <Footer />
       </Router>
     </>
   )
