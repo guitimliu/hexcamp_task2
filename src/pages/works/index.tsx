@@ -8,7 +8,7 @@ function Works() {
   return (
     <>
       <div className="w-full bg-gray-50 text-center py-12 mb-10 md:mb-20">
-        <div className="md:flex justify-center items-center relative md:w-[670px] md:h-48 mx-auto mb-12">
+        <div className="px-2 md:px-0 md:flex justify-center items-center relative md:w-[670px] md:h-48 mx-auto mb-12">
           <svg className="md:absolute top-0 left-0 mx-auto mb-4 md:mb-4" width="72" height="72" viewBox="0 0 72 72" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path d="M33.5751 47.271C33.5751 44.631 32.8851 42.417 31.5051 40.62C30.5271 39.384 29.2011 38.571 27.5241 38.184C25.8741 37.8 24.3141 37.773 22.9041 38.1C22.4241 35.25 23.2041 32.232 25.1841 29.034C27.1641 25.839 29.7291 23.433 32.8581 21.825L28.1151 15C25.7151 16.188 23.4351 17.694 21.3351 19.515C19.2051 21.336 17.3151 23.43 15.6351 25.797C13.9551 28.164 12.6951 30.837 11.8851 33.867C11.0751 36.897 10.8501 39.987 11.2371 43.167C11.7411 47.367 13.0971 50.727 15.3051 53.217C17.5101 55.74 20.2611 57 23.5491 57C26.4441 57 28.8471 56.13 30.7491 54.366C32.6331 52.638 33.5691 50.271 33.5691 47.262L33.5751 47.271ZM60.9471 47.271C60.9471 44.631 60.2571 42.417 58.8771 40.62C57.8991 39.36 56.5671 38.544 54.8961 38.169C53.2161 37.797 51.6771 37.779 50.2761 38.103C49.7961 35.283 50.5461 32.253 52.5321 29.043C54.5121 25.863 57.0711 23.463 60.2001 21.843L55.4691 15C53.0691 16.188 50.8041 17.694 48.6891 19.515C46.5397 21.363 44.6308 23.4735 43.0071 25.797C41.3391 28.167 40.0971 30.837 39.2871 33.867C38.4676 36.8952 38.2464 40.0542 38.6361 43.167C39.1341 47.367 40.4841 50.727 42.6861 53.217C44.8851 55.719 47.6271 56.973 50.9151 56.973C53.8161 56.973 56.2191 56.103 58.1211 54.342C60.0021 52.614 60.9471 50.247 60.9471 47.238V47.271Z" fill="#E9E9E9"/>
           </svg>
@@ -144,18 +144,18 @@ function Works() {
               <div className="p-10">
                 <h2 className="text-[28px] text-center font-bold mb-2">星際旅行訂票平台</h2>
                 <h3 className="text-center text-gray-400 mb-10">悠遊宇宙的夢想，從這裡開始實現</h3>
-                <div className="flex justify-between items-center">
-                  <div className="w-6/12">
+                <div className="md:flex justify-between items-center">
+                  <div className="md:w-6/12 mb-8">
                     <p>STAR TRAVEL 為 KK 公司宇宙旅行的購票網站。</p>
                     <p>主要從地球出發，目的地包含月球、火星、水星、木星；未來太空轉運站建置完畢，將再擴增目的地土星和金星。</p>
                   </div>
-                  <ul className="border-s border-gray-300 ps-4">
+                  <ul className="border-t md:border-t-0 md:border-s border-gray-300 text-gray-400 text-center md:text-start ps-4 pt-8 md:pt-0">
                     <li>設計原則：宇宙旅行、深色背景、強烈視覺效果</li>
                     <li>開發方式：Bootstrap、Javascript、RWD</li>
                   </ul>
                 </div>
               </div>
-              <div className="bg-gray-50 py-10">
+              <div className="bg-gray-50 px-2 md:px-0 py-10">
                 <ul>
                   <li className="mb-8">
                     <img className="rounded-t-xl max-w-full mx-auto mb-2" src="https://fakeimg.pl/636x400/200" />

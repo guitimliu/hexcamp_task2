@@ -13,7 +13,7 @@ function Footer() {
       style={{ backgroundImage: `url(${useRWD() === 'sm' ? bgSmImage : bgLgImage})` }}
       className="bg-cover bg-center"
     >
-      <div className="flex flex-col md:flex-row justify-between items-center container mx-auto py-10 md:py-20">
+      <div className="flex flex-col md:flex-row justify-between items-center container px-2 md:px-0  mx-auto py-10 md:py-20">
         <div className="flex flex-col items-center mb-8 md:items-start md:mb-0">
           <svg className="mb-4" width="90" height="40" viewBox="0 0 90 40" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path d="M76.3672 7.73269C78.9572 6.79878 80.4108 6.71369 83.0004 7.73269V31.5667C80.409 32.3845 78.9582 32.4433 76.3672 31.5667V7.73269Z" fill="black"/>
