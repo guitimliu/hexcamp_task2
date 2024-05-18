@@ -10,13 +10,15 @@ import {
 } from 'react-router-dom';
 
 import Works from './pages/works/index'
+import Header from './components/Header'
 
 function App() {
   return (
     <>
       <Router>
+        <Header />
         <Routes>
-          <Route path="/works" element={<Works />} />
+            <Route path="/works" element={<Works />} />
         </Routes>
       </Router>
     </>
