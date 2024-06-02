@@ -1,5 +1,4 @@
 // Home.jsx
-import React from 'react';
 import useRWD from '../hooks/useRWD'
 import bgSmImage from '../assets/img/components/footer/footer-bg-sm.png';
 import bgLgImage from '../assets/img/components/footer/footer-bg-lg.png';

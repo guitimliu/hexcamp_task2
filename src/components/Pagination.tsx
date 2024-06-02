@@ -1,5 +1,5 @@
 // Pagination.jsx
-import React, { useState } from 'react';
+import { useState } from 'react';
 
 function Pagination() {
   const pageNum = 3;

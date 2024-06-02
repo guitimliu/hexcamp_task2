@@ -1,5 +1,5 @@
 // Home.jsx
-import React, { useState } from 'react';
+import { useState } from 'react';
 
 function Header() {
   const [ showMenu, setShowMenu ] = useState<boolean>(false);

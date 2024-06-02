@@ -1,5 +1,5 @@
 // Works.jsx
-import React, { useState } from 'react';
+import { useState } from 'react';
 import Pagination from '../../components/Pagination';
 
 function Works() {
