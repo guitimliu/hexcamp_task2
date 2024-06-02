@@ -6,8 +6,6 @@ import bgLgImage from '../assets/img/components/footer/footer-bg-lg.png';
 
 
 function Footer() {
-  console.log(useRWD());
-
   return (
     <div
       style={{ backgroundImage: `url(${useRWD() === 'sm' ? bgSmImage : bgLgImage})` }}
