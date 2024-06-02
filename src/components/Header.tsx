@@ -16,19 +16,19 @@ function Header() {
           </svg>
           <ul className='hidden md:flex item-center gap-x-10'>
             <li>
-              <a href="/">首頁</a>
+              <a href="/hexcamp_task2/">首頁</a>
             </li>
             <li>
-              <a href="/works">作品集</a>
+              <a href="/hexcamp_task2/works">作品集</a>
             </li>
             <li>
-              <a href="/service">服務項目</a>
+              <a href="/hexcamp_task2/service">服務項目</a>
             </li>
             <li>
-              <a href="/blog">部落格</a>
+              <a href="/hexcamp_task2/blog">部落格</a>
             </li>
             <li>
-              <a href="/contact">聯絡我</a>
+              <a href="/hexcamp_task2/contact">聯絡我</a>
             </li>
           </ul>
           <div>
@@ -51,19 +51,19 @@ function Header() {
           <div onClick={() => setShowMenu(false)} className='absolute w-full h-full bg-black z-10 opacity-75'></div>
           <ul className='relative bg-white text-center border-t border-gray-100 py-6 z-20'>
             <li>
-              <a className="block py-4 text-xl" href="/">首頁</a>
+              <a className="block py-4 text-xl" href="/hexcamp_task2/">首頁</a>
             </li>
             <li>
-              <a className="block py-4 text-xl" href="/works">作品集</a>
+              <a className="block py-4 text-xl" href="/hexcamp_task2/works">作品集</a>
             </li>
             <li>
-              <a className="block py-4 text-xl" href="/service">服務項目</a>
+              <a className="block py-4 text-xl" href="/hexcamp_task2/service">服務項目</a>
             </li>
             <li>
-              <a className="block py-4 text-xl" href="/blog">部落格</a>
+              <a className="block py-4 text-xl" href="/hexcamp_task2/blog">部落格</a>
             </li>
             <li>
-              <a className="block py-4 text-xl" href="/contact">聯絡我</a>
+              <a className="block py-4 text-xl" href="/hexcamp_task2/contact">聯絡我</a>
             </li>
           </ul>
         </div>

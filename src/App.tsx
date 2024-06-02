@@ -19,7 +19,7 @@ function App() {
       <Router>
         <Header />
         <Routes>
-            <Route path="/works" element={<Works />} />
+            <Route path="/hexcamp_task2/works" element={<Works />} />
         </Routes>
         <Footer />
       </Router>
